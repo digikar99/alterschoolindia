@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	
+</head>
+
+<body>
+<p id="Q">Question</p>
+<script>
+/*function readQuestion()
+{
+	//var filePath = "./Question 1.html"
+	var ques = document.getElementById("Q")
+	var fileQuestion = open("get", 'file:///home/shubhamkar/Desktop/A Holistic Adventure in Education/Quiz 01/Question 1.txt', false);
+	ques.innerText = fileQuestion;
+}
+readQuestion();
+*/
+
+function readTextFile()
+{
+    var rawFile = new XMLHttpRequest();
+    var ques = document.getElementById("Q")
+    rawFile.open("GET", './Question 1.txt', true);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                ques.innerText = allText; 
+            }
+        }
+    }
+    rawFile.send(null);
+}
+readTextFile();
+</script>
+</body>
+</html>

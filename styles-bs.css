@@ -1,0 +1,51 @@
+	body{font-size:16px;}
+	nav{background-color:black; color:white;}
+
+	#ahe_level{text-align:center;}
+	#ahe_topic{text-align:center;}
+	#ahe_route{text-align:center;}
+
+	table{width:100vw; padding-left:10px; padding-right:10px; background-color:black; color:white;}
+	h1{text-align: center; font-size:24px; margin-top:0cm}
+	h2{font-size:1em; font-weight:bold; text-align:left;}
+	h3{font-size:1em; text-decoration:underline; font-weight:normal; display:inline;}
+	p.ahe_ref{text-align:right;}
+	p.center{text-align:center;}
+	p{text-align:justify;}
+
+	footer{border-style:solid; border-width:2px; text-align:justify; position:static; padding: 10px 10px 10px 10px;}
+	main.short-line{margin-top:125px;}
+	footer.short-line{margin-top:50px;}
+	main.long-line{margin-top:200px;}
+	footer.long-line{margin-top:50px;}
+	main.main-title{margin-top:100px;}
+	footer.main-title{margin-top:50px;}
+	blockquote{font-size:16px}
+
+@media (min-width:520px)
+{
+	main.main-title{margin-top:50px;}
+	footer.main-title{margin-top:50px;}
+}
+
+@media (min-width:768px)
+{
+	main.long-line{margin-top:100px;}
+	footer.long-line{margin-top:50px;}
+}
+
+@media (min-width:990px)
+{
+	main.short-line{margin-top:75px;}
+	footer.short-line{margin-top:75px;}
+
+	main.long-line{margin-top:75px;}
+	footer.long-line{margin-top:75px;}
+}
+
+
+
+
+
+
+
