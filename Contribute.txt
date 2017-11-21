@@ -14,8 +14,14 @@ Note that the Template.html file has linked formatting-files only for one level 
 
 *************
 
-Once, all the questions (you were assigned) have been answered and converted to html, you may issue a pull request. To complete it, someone will transfer those files to relevant sections, and shift the task in from ToDo list to Done List.
+Once, all the questions (you were assigned) have been answered and converted to html, you may issue a pull request. To complete it, someone will transfer those files to relevant sections.
+
+Once the files are converted to html format, and moved to relevant sections, the "List of All Questions" under Meta has to be updated to link those questions, as also include the new questions for self-study.
 
 *************
 
-As far as possible, we will directly quote introductory parts from the corresponding Wikipedia page. And if that's too brief or heavy, we will explain it. If even that's impossible, we will either find a simpler source; or write the answer in our own words, to the best of our understanding. 
+Finally the task is shifted from "In Progress" list to "Done" List.
+
+*************
+
+As far as possible, we will directly quote introductory parts from the corresponding Wikipedia page, cut short, perhaps. And if that's too brief or heavy, we will explain it. If even that's impossible, we will either find a simpler source; or write the answer in our own words, to the best of our understanding. 
