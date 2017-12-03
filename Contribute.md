@@ -1,4 +1,4 @@
-Once you undertake a task in "Todo" list in projects, the task is to be moved to "In Progress" list, with a mention of your name.
+You may want to let me know at shubhamayare@yahoo.co.in . Once you undertake a task in "Todo" list in projects, the task is to be moved to "In Progress" list, with a mention of your name.
 
 *************
 
