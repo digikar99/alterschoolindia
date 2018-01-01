@@ -2,7 +2,7 @@
 
 A Holistic Adventure in Education - Creating a "guide" to introduce middle/high-schoolers to using the internet, while supplementing/replacing their school curriculum.
 
-(a) If you are a user of this project, open "Start here.html", or "Demo.txt", after unzipping the downloaded .zip file. (Click on "Clown or Download" button on the [root](https://github.com/Shubhamkar/AHAE) page.) You may also want to look at [Introduction.md](./Introduction.md) (also in the root).
+(a) If you are a user of this project, open "Start here.html", or "Demo.txt", after unzipping the downloaded .zip file. (Click on "Clown or Download" button on the [root](https://github.com/Shubhamkar/AHAE) page, in the Desktop mode.) You may also want to look at [Introduction.md](./Introduction.md) (also in the root).
 
 (b) If you want to contribute to this project, open [Contribute.md](./Contribute.md). You may want to check the [projects](https://github.com/Shubhamkar/AHAE/projects/1) page to know where we are heading. Or address the [issues](https://github.com/Shubhamkar/AHAE/issues).
 
