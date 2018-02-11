@@ -2,40 +2,31 @@
 <html>
 <head>
 	<title>National Democratic Alliance</title>
+	
+	<meta charset="utf-8" name="viewport" content="width=device-width"/>
+	
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="../bootstrap-3.3.7-dist/jquery-3.2.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-
 	<link rel="stylesheet" href="../styles-bs.css">
-	<meta charset="utf-8" name="viewport" content="width=device-width"/>
 </head>
 
 <body>
 
-<div class="container">
-<nav class="navbar-fixed-top">
-<header>
+<nav class="page-details">
 <div class="container">
 <div class="row">
-	<div class="col-md-4" id="ahe_level"><b>Level:</b> Level 0</div>
-	<div class="col-md-4" id="ahe_topic"><b>Topic:</b> Political Science</div>
-	<div class="col-md-4" id="ahe_route"><b>Route Number:</b> 01</div>
-</div></div>
-<h1 class="container-fluid">What is NDA?</h1>
-</header>
-</nav>
-</div>
+	<div class="col-md-4 col-xs-3" id="ahe_level"><b class="hidden-xs">Level:</b> Level 0</div>
+	<div class="col-md-4 col-xs-6" id="ahe_topic"><b class="hidden-xs">Topic:</b> Political Science</div>
+	<div class="col-md-4 col-xs-3" id="ahe_route"><b class="hidden-xs">Route Number:</b> 01</div>
+</div></div></nav>
+<nav class="page-question"><h1 class="container-fluid">What is NDA?</h1></nav>
 
 <div class="container">
 
 <div class="row">
 
-<div class="col-md-8">
+<div class="col-md-8 col-sm-7">
 <main class="long-line">
 
 <blockquote>
@@ -54,12 +45,13 @@ Democratic Alliance (India), Wikipedia</i></p>
 
 </div>
 
-<div class="col-md-4">
+<div class="col-md-4 col-sm-5">
 
-<footer class="long-line">
-<h2>Would
-you like to know...</h2>
-<ol>
+			<footer class="short-line">
+
+			<div class="hidden-xs"><h2>Would you like to know...</h2></div>
+			<div id="follow-questions">
+				<ol>
 	<li>
 What is 'centre-right'? Or, <a href="07 Left Center Right - Politics.html">what are right and 
 left wings, in the context of politics?</a> [Level 0]</li>
@@ -78,10 +70,20 @@ what is an election?</a> [Level 0]
 	<li><a href="12 General Elections.html">What is the General Election?</a> [Level 0]</li>
   <li>What does "%" sign represent in "38.5%"? Or, <a href="../Maths/01 Percentage.html">what are percentages?</a> [Level 0]</li>
 </ol>
+			</div>
 </footer>
 </div>
-</div>
+	</div>
 </div>
 
+<nav id="follow-question-btn" class="visible-xs">Would you like to know</nav>
+
+
+<!-- jQuery library -->
+<script src="../bootstrap-3.3.7-dist/jquery-3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js-bs.js"></script>
 </body>
 </html>

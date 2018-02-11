@@ -7,37 +7,27 @@
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="../bootstrap-3.3.7-dist/jquery-3.2.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-
 	<link rel="stylesheet" href="../styles-bs.css">
+
 </head>
 
 <body>
 
-<div class="container">
-<nav class="navbar-fixed-top">
-<header>
+<nav class="page-details">
 <div class="container">
 <div class="row">
-	<div class="col-md-4" id="ahe_level"><b>Level:</b> Level 0</div>
-	<div class="col-md-4" id="ahe_topic"><b>Topic: </b>Science </div>
-	<div class="col-md-4" id="ahe_route"><b>Route Number:</b> 04 </div>
-</div></div>
-<h1 class="container-fluid">Is there a simpler explanation of the scientific method?</h1>
-</header>
-</nav>
-</div>
+	<div class="col-md-4 col-xs-3" id="ahe_level"><b class="hidden-xs">Level:</b> Level 0</div>
+	<div class="col-md-4 col-xs-6" id="ahe_topic"><b class="hidden-xs">Topic: </b>Science </div>
+	<div class="col-md-4 col-xs-3" id="ahe_route"><b class="hidden-xs">Route Number:</b> 04 </div>
+</div></div></nav>
+<nav class="page-question"><h1 class="container-fluid">Is there a simpler explanation of the scientific method?</h1></nav>
 
 
 <div class="container">
 
 <div class="row">
 
-<div class="col-md-8">
+<div class="col-md-8 col-sm-7">
 <main class="long-line">
 <p>The Scientific Method often consists of the following steps: (Don't worry if you don't understand it immediately. You should understand it once you do a few experiments.)</p>
 <ol>
@@ -48,6 +38,7 @@
 <li><b>Conclude:</b> Compare your predictions with your observations. If they match, what you have is a "theory". If they don't, then your hypothesis is falsified. You will need to form and test some other hypothesis.</li>
 <li>Share your findings with others. Note that the scientific method is a cycle. Now, somebody else may perform the experiment to check if they get the same results you got. Or they may study other aspects of the phenomenon you were studying. Thus, the scientific method is a sort of a cycle.</li>
 </ol>
+			</div>
 <!-- https://gosciencegirls.com/scientific-method-demonstrations-experiments/
      https://www.khanacademy.org/science/biology/intro-to-biology/science-of-biology/a/the-science-of-biology -->
 <br></br>
@@ -60,6 +51,7 @@
 <li>Now conclude. What you would observe is that, some times, both the objects may reach the ground at the same time. Thus, heavy objects do not <em>always</em> reach the ground earlier than light objects. This means our hypothesis has been proven false. In science, there is no such thing as being proven right. The hypothesis can only be proven wrong. This occurs when the observations do not match the predictions. Of course, care must be taken to ensure that the observations are taken properly.</li>
 <li>You may want to share this finding of yours with others. Well, until about 400 years ago, [most] people believed that the heavy objects fall faster than light objects. It was Galileo who performed a <a href="https://en.wikipedia.org/wiki/Galileo%27s_Leaning_Tower_of_Pisa_experiment">similar experiment</a> (<a href="../Alternate Links/Wikipedia - GLTP.html">alternate link</a>) and proved that this belief is incorrect. And now, most of the educated people know that both a heavy object need not reach the ground faster that a light object. So, don't get disheartened if other people may not be impressed with this finding!</li>
 </ol>
+			</div>
 
 <br></br>
 <p></p>
@@ -73,12 +65,13 @@ Science Route 03,04,05 reviewed by Prathamesh Borse.
 
 </div>
 
-<div class="col-md-4">
+<div class="col-md-4 col-sm-5">
 
-<footer class="short-line">
-<h2>Would
-you like to know...</h2>
-<ol>
+			<footer class="long-line">
+
+			<div class="hidden-xs"><h2>Would you like to know...</h2></div>
+			<div id="follow-questions">
+				<ol>
 <li>What is a better explanation of falsifiability? [Level 0]</li>
 <li>Does 'heavy' mean the same as 'massive'? Why don't you use the internet? (Hint: Search "mass vs weight".) [Level 1]</li>
 <li>Is there another example demonstrating the Scientific Method? Yes, <a href="https://www.khanacademy.org/science/biology/intro-to-biology/science-of-biology/a/the-science-of-biology">here</a> it is. Note that the Scientific Method can be applied to [almost] any activity in the daily life? [Level 0]</li>
@@ -87,10 +80,20 @@ you like to know...</h2>
 <li>What are the techniques that help to deal with hypothesis which say something like "A occurs 75% of the time"? [Level 1]</li>
 
 </ol>
+			</div>
 
 </footer>
 </div>
+	</div>
 </div>
-</div>
-</body>
+
+<nav id="follow-question-btn" class="visible-xs">Would you like to know</nav>
+
+
+<!-- jQuery library -->
+<script src="../bootstrap-3.3.7-dist/jquery-3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="../js-bs.js"></script>
 </html> 
