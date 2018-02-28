@@ -14,7 +14,7 @@ In this 'A Holistic Adventure in Education', I have made an effort to promote le
 
 **Topics Covered**
 
-I felt Mathematics, Sciences, Political Science, ICT, Health to be the most important topics - all of them have not yet been covered. Feel free to make suggestions.
+I felt Mathematics, Sciences, Social Science, ICT, Health to be the most important topics - all of them have not yet been covered. Feel free to make suggestions.
 
 **Contribute**
 
