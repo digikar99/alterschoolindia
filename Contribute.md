@@ -16,10 +16,10 @@ Once this is done, update the task to reflect that this phase is done; you may r
 
 You can do this phase, if you have at the least some information about html/css. In addition, if you want to contribute to math sections, you may need to [install firefox-esr](https://askubuntu.com/questions/894871/how-do-i-install-firefox-52-esr-on-16-04/897911#897911) (for Linux) and install the [Firemath plugin](https://askubuntu.com/questions/894871/how-do-i-install-firefox-52-esr-on-16-04/897911#897911) to produce math expressions using MathML. There's no learning curve to using these tools.
 
-Once, you have pulled the Updates branch, copy the Template.html file to relevant topic-folders.
+Once, you have pulled the Handset branch, copy the Template.html file to relevant topic-folders.
 1. Using this template, and the relevant file in WIP, create the html version in the relevant folder.
 2. Once the .html file is created, update the relevant links, as also the 'List of all questions' under Meta. Ensure that the route number and the question number in the list match each other.
-Repeat the above steps for the remaining files of one single folder under WIP. Then commit and push, to Updates branch.
+Repeat the above steps for the remaining files of one single folder under WIP. Then commit and push, to Handset branch.
 3. The 'List of all questions' should also include the self-study questions.
 
 *Note:* The Template.html file has linked formatting-files only for one level up.
