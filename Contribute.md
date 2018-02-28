@@ -1,5 +1,7 @@
 You may want to let me know at shubhamayare@yahoo.co.in . Once you undertake a task in "Todo" list in projects, the task is to be moved to "In Progress" list, with a mention of your name.
 
+If you do not intend to use git, simply inform me and send me the required files (in most formats - txt, html, docx, rtf, pdf, odt).
+
 *************
 
 **Phase 1: Assimilating Information**
@@ -27,4 +29,6 @@ Repeat the above steps for the remaining files of one single folder under WIP. T
 *************
 
 Finally, the task is shifted from "In Progress" list to "Done" List.
+
+I'd repeat: If you do not intend to use git, simply inform me and send me the required files (in most formats - txt, html, docx, rtf, pdf, odt).
 
