@@ -6,7 +6,7 @@ You may want to let me know at shubhamayare@yahoo.co.in . Once you undertake a t
 
 You are most suited for this phase, if you do not know about html/css. 
 
-In this phase, you create a relevant folder under WIP (Work in Progress), and create the relevant files. Include a completed label in the folder name, once you complete collecting information in the .txt files. This folder is to kept in WIP only. Follow-up questions should be included.
+In this phase, you create a relevant folder under WIP (Work in Progress), and create the relevant files. Include a 'completed' label in the folder name, once you complete collecting information in the .txt files. This folder is to kept in WIP only. Follow-up questions should be included.
 
 Once this is done, update the task to reflect that this phase is done; you may remove your name, once done; unless you also want to do the Phase 2
 
