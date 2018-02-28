@@ -10,4 +10,4 @@ To find the motivation of the project, check [AHAE - Introduction.pdf](./AHAE%20
 
 All these files are present in the root of the repo.
 
-*Note*: If I find about a dozen or two contributors, this project will be free-of-cost; and can be completed in 10-20 months' time; with each contributor contributing about 1.5hr/week. Want to contribute?
+*Note*: If I find about a dozen or two contributors, this project will be free-of-cost; and can be completed in 10-20 months' time; with each contributor contributing about 1.5hr/week. Want to contribute? Let me know at shubhamayare@yahoo.co.in
