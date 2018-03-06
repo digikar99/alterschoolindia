@@ -54,5 +54,11 @@ $(document).ready(function() {
 		   }
 	   }
 	})
+
+	$(function() {
+	    $("#startJourney").modal();
+	});
 	
 });
+
+
