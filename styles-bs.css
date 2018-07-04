@@ -77,31 +77,7 @@
 	    width: 0px;  /* remove scrollbar space */
 	    background: transparent;  /* optional: just make scrollbar invisible */
 	}	
-	#updates{
-		border-style:none; 
-		border-top:none; 
-		border-color:black; 
-		text-align:left; 
-		position:static;  
-		background-color:#eee; 
-		color:black; 
-		padding-top:10vh;
-		overflow-y:scroll;
-		padding-bottom:0;
-		margin-bottom:0;
-	}	
-	#contributors{
-		border-style:none; 
-		border-top:none; 
-		border-color:black; 
-		text-align:left; 
-		position:static;  
-		background-color:#eee; 
-		color:black; 
-		overflow-y:scroll;
-		padding-bottom:10vh;
-		margin-bottom:0;
-	}
+	
 
 }
 	
@@ -156,6 +132,59 @@
 		height:75vh;
 
 	}
+}
+
+@media (max-width:1023px){
+	#updates{
+		border-style:none; 
+		border-top:none; 
+		border-color:black; 
+		text-align:left; 
+		position:static;  
+		background-color:#eee; 
+		color:black; 
+		padding-top:10vh;
+		overflow-y:scroll;
+		padding-bottom:0;
+		margin-bottom:0;
+	}	
+	#contributors{
+		border-style:none; 
+		border-top:none; 
+		border-color:black; 
+		text-align:left; 
+		position:static;  
+		background-color:#eee; 
+		color:black; 
+		overflow-y:scroll;
+		padding-bottom:10vh;
+		margin-bottom:0;
+	}
+}
+
+@media (min-width:990px)
+{
+	/*main.short-line{margin-top:75px;}*/
+/*	footer.short-line{margin-top:75px;}*/
+
+	main.long-line{margin-top:75px;}
+	footer.long-line{margin-top:75px;}
+}
+
+#follow-question-btn{
+	background-color:black;
+	color:white;
+	text-align:center;
+	position:fixed;
+	bottom:0;
+	width:95vw;
+	left:2.5vw;
+	font-size:16px;
+	height:26px;
+	padding-top:2px;
+}
+
+@media (min-width:1024px){
 	#updates{
 		border-style:none; 
 		border-top:none; 
@@ -188,32 +217,7 @@
 		width:20vw;
 		right:2.5vw;
 	}
-	
 }
-
-@media (min-width:990px)
-{
-	/*main.short-line{margin-top:75px;}*/
-/*	footer.short-line{margin-top:75px;}*/
-
-	main.long-line{margin-top:75px;}
-	footer.long-line{margin-top:75px;}
-}
-
-#follow-question-btn{
-	background-color:black;
-	color:white;
-	text-align:center;
-	position:fixed;
-	bottom:0;
-	width:95vw;
-	left:2.5vw;
-	font-size:16px;
-	height:26px;
-	padding-top:2px;
-}
-
-
 
 
 
