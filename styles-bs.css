@@ -76,7 +76,32 @@
 	::-webkit-scrollbar {
 	    width: 0px;  /* remove scrollbar space */
 	    background: transparent;  /* optional: just make scrollbar invisible */
-	}		
+	}	
+	#updates{
+		border-style:none; 
+		border-top:none; 
+		border-color:black; 
+		text-align:left; 
+		position:static;  
+		background-color:#eee; 
+		color:black; 
+		padding-top:10vh;
+		overflow-y:scroll;
+		padding-bottom:0;
+		margin-bottom:0;
+	}	
+	#contributors{
+		border-style:none; 
+		border-top:none; 
+		border-color:black; 
+		text-align:left; 
+		position:static;  
+		background-color:#eee; 
+		color:black; 
+		overflow-y:scroll;
+		padding-bottom:10vh;
+		margin-bottom:0;
+	}
 
 }
 	
@@ -131,6 +156,38 @@
 		height:75vh;
 
 	}
+	#updates{
+		border-style:none; 
+		border-top:none; 
+		border-color:black; 
+		border-width:20px; 
+		text-align:left; 
+		position:fixed;  
+		z-index:1000; 
+		background-color:#eee; 
+		color:black; 
+		overflow-y:scroll; 
+		top:10vh;
+		height:80vh;
+		width:20vw;
+		left:2.5vw;
+	}
+	#contributors{
+		border-style:none; 
+		border-top:none; 
+		border-color:black; 
+		border-width:20px; 
+		text-align:left; 
+		position:fixed;  
+		z-index:1000; 
+		background-color:#eee; 
+		color:black; 
+		overflow-y:scroll; 
+		top:10vh;
+		height:80vh;
+		width:20vw;
+		right:2.5vw;
+	}
 	
 }
 
@@ -154,8 +211,9 @@
 	font-size:16px;
 	height:26px;
 	padding-top:2px;
-
 }
+
+
 
 
 
