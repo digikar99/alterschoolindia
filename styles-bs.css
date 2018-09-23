@@ -1,10 +1,4 @@
-/*html {*/
-/*    position: relative;*/
-/*    min-height: 100%;*/
-/*}*/
-
 	body{font-size:14px;}
-/*	nav{background-color:black; color:white;}*/
 	#begin-journey{background-color:black; color:white; position:fixed; width:100vw; z-index:1030; padding-top:5px;}
 	.page-details{
 		background-color:black; 
