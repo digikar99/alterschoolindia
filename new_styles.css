@@ -9,6 +9,7 @@
 .section-1{
 	padding-top:20vh;
 	text-align:center;
+	background-color:#b3d9ff;
 }
 
 .section-2{
@@ -16,13 +17,15 @@
 }
 
 .section-3{
-	padding-top:10vh;
+	padding-top:5vh;
+	Background-color:#aaff80;
 }
 
 .section-4{
 	padding:3vw;
 	text-align:center;
-	padding-top:20vh;
+	padding-top:5vh;
+	Background-color:#ffff80;
 }
 
 #home-logo{
@@ -30,7 +33,7 @@
 }
 
 .front-line{
-	font-size:medium;
+	font-size:large;
 	text-align:center;
 }
 
@@ -43,7 +46,8 @@
 .top-choices{
 	text-align:center;
 	vertical-align:center;
-	background-color:skyblue;
+	background-color:red;
+	color:white;
 }
 
 .fa-facebook {
