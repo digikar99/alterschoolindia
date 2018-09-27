@@ -1,0 +1,234 @@
+
+
+/* For all screen sizes */
+.section{
+	height:100vh;
+	margin:auto;
+}
+
+.section-1{
+	padding-top:20vh;
+	text-align:center;
+	background-color:#b3d9ff;
+}
+
+.section-2{
+	padding-top:40vh;
+	background-color:#ffcc99
+}
+
+.section-3{
+	padding-top:5vh;
+	Background-color:#aaff80;
+}
+
+.section-4{
+	padding:3vw;
+	text-align:center;
+	padding-top:5vh;
+	Background-color:#ffff80;
+}
+
+#home-logo{
+	width:100%;
+}
+
+.front-line{
+	font-size:large;
+	text-align:center;
+}
+
+@-webkit-keyframes exp-1{
+    0%{opacity:0; height:0;}
+	0.58%{opacity:1; height:auto;}
+    5.28%{opacity:1; height:auto;}
+    5.8%{opacity:0;height:0;}
+	100%{opacity:0;height:0;}
+}
+
+@-webkit-keyframes exp-2{
+	0%{opacity:0; height:0;}
+    5.8%{opacity:0; height:0;}
+	6.46%{opacity:1; height:auto;}
+    8.81%{opacity:1; height:auto;}
+    9.4%{opacity:0;height:0;}
+	100%{opacity:0;height:0;}
+}
+@-webkit-keyframes exp-3{
+	0%{opacity:0; height:0;}
+    9.4%{opacity:0; height:0;}
+	9.98%{opacity:1; height:auto;}
+    19.38%{opacity:1; height:auto;}
+    19.97%{opacity:0;height:0;}
+	100%{opacity:0;height:0;}
+}
+@-webkit-keyframes exp-4{
+	0%{opacity:0; height:0;}
+    19.98%{opacity:0; height:0;}
+	20.56%{opacity:1; height:auto;}
+    29.96%{opacity:1; height:auto;}
+    30.55%{opacity:0;height:0;}
+	100%{opacity:0;height:0;}
+}
+@-webkit-keyframes exp-5{
+	0%{opacity:0; height:0;}
+    30.56%{opacity:0; height:0;}
+	31.13%{opacity:1; height:auto;}
+    40.53%{opacity:1; height:auto;}
+    41.12%{opacity:0;height:0;}
+	100%{opacity:0;height:0;}
+}
+@-webkit-keyframes exp-6{
+	0%{opacity:0; height:0;}
+    41.13%{opacity:0; height:0;}
+	41.71%{opacity:1; height:auto;}
+    53.46%{opacity:1; height:auto;}
+    54.05%{opacity:0;height:0;}
+	100%{opacity:0;height:0;}
+}
+@-webkit-keyframes exp-7{
+	0%{opacity:0; height:0;}
+    54.1%{opacity:0; height:0;}
+	54.63%{opacity:1; height:auto;}
+    68.73%{opacity:1; height:auto;}
+    70.5%{opacity:0;height:0;}
+	100%{opacity:0;height:0;}
+}
+@-webkit-keyframes exp-8{
+	0%{opacity:0; height:0;}
+    70.51%{opacity:0; height:0;}
+	71.08%{opacity:1; height:auto;}
+    85.18%{opacity:1; height:auto;}
+    85.77%{opacity:0;height:0;}
+	100%{opacity:0;height:0;}
+}
+@-webkit-keyframes exp-9{
+	0%{opacity:0; height:0;}
+    85.78%{opacity:0; height:0;}
+	86.36%{opacity:1; height:auto;}
+	99.28%{opacity:1; height:auto;}
+	100%{opacity:0;height:0;}
+}
+
+#explanation-1{
+	display:block;
+    -webkit-animation:exp-1 45s infinite;
+}
+#explanation-2{
+	display:block;
+    -webkit-animation:exp-2 45s infinite;
+}
+#explanation-3{
+	display:block;
+    -webkit-animation:exp-3 45s infinite;
+}
+#explanation-4{
+	display:block;
+    -webkit-animation:exp-4 45s infinite;
+}
+#explanation-5{
+	display:block;
+    -webkit-animation:exp-5 45s infinite;
+}
+#explanation-6{
+	display:block;
+    -webkit-animation:exp-6 45s infinite;
+}
+#explanation-7{
+	display:block;
+    -webkit-animation:exp-7 45s infinite;
+}
+#explanation-8{
+	display:block;
+    -webkit-animation:exp-8 45s infinite;
+}
+#explanation-9{
+	display:block;
+    -webkit-animation:exp-9 45s infinite;
+}
+
+.top-choices{
+	text-align:center;
+	vertical-align:center;
+	background-color:red;
+	color:white;
+}
+
+.top-choices:hover{
+	Background-color:#0099ff;
+	color:black;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+	background-color:#0077B5;
+	color:white;
+}
+
+.fa-google-plus {
+	background-color:#C63D2D;
+	color:white;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 24px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+	border-radius: 20%;
+	margin:5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+@media (min-width:768px){
+	.sole-front-line{
+		font-size:x-large;
+		text-align:center;
+	}
+	.top-choices{
+		height:60vh;
+		padding-top:24vh;
+		margin-top:20px;
+		margin-left:10px;
+		margin-right:10px;
+		font-size:x-large;
+	}
+	.top-choices-2{
+		padding-top:20vh;
+	}
+}
+
+@media (max-width:767px){
+	.sole-front-line{
+		padding:5px;
+		font-size:large;
+		text-align:center;
+	}
+	.top-choices{
+		height:30vh;
+		margin-top:10px;
+		margin-bottom:10px;
+		padding-top:12vh;
+		font-size:large;
+	}
+	.top-choices-2{
+		padding-top:8vh;
+	}
+	h2{
+		font-size:x-large;
+	}
+}
+
