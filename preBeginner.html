@@ -1,0 +1,164 @@
+ 
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+	 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="preBeginner.css"> 
+	<link rel="shortcut icon" href="Meta/asi_logo.png" />
+	<title>A Supplementative (Alternative) School Curriculum</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<meta name="keywords" content="alternative education, supplementary education, after school activity, summer activity, teen development, additional learning, alternative school curriculum, education reform">
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-8 col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10">
+			<div class="full-page">
+				<div id="loader" class="center-block"></div><br>
+				<div class="question-page">
+					<div class="question">Do you think you are patient?</div><br>
+					<div class="option">
+						<form>
+							<input type="radio" name="patience" value="Yes">Yes<br>
+							<input type="radio" name="patience" value="No">No<br>
+							<button type="button" onclick="test_patience()">Proceed</button>
+						</form>
+					</div>
+				</div>
+				<div class="question-page">
+					<div class="message">That's great! Patience is necessary for succeeding at whatever you want to do.</div>
+				</div>
+				<div class="question-page">
+					<div class="message">You do know that patience is necessary for whatever you do, right?</div>
+				</div>
+				<div class="question-page">
+					<div class="question">Do you think you have the courage to read long blocks of text?</div>
+					<div class="option">
+						<form>
+							<input type="radio" name="courage" value="Yes">Yes<br>
+							<input type="radio" name="courage" value="No">No<br>
+							<button type="button" onclick="test_courage()">Proceed</button>
+						</form>
+					</div>
+				</div>
+				<div class="question-page">
+					<div class="message">Now that's the spirit! Keep reading. Keep learning.</div>
+				</div>
+				<div class="question-page">
+					<div class="message">You should have a strong heart! Nevertheless feel free to explore what we have collected so far.</div>
+				</div>
+				<div class="question-page">
+					<div class="question">What do you think, how much time will studying through this part of the website take?</div>
+					<div class="option">
+						<form>
+							<input type="radio" name="time" value="1">1 hour<br>
+							<input type="radio" name="time" value="10">10 hours<br>
+							<input type="radio" name="time" value="100">100 hours<br>
+							<button type="button" onclick="test_time()">Proceed</button>
+						</form>
+					</div>
+				</div>
+				<div class="question-page">
+					<div class="message">In 1 hour, you sure can look at what the website has. But to study all of it thoroughly will take more time.</div>
+				</div>
+				<div class="question-page">
+					<div class="message">No, 10 hours won't be sufficient. Nevertheless, if you're too busy, feel free to share us with your family and friends.</div>
+				</div>
+				<div class="question-page">
+					<div class="message">Wo/Man! You're prepared! Feel free to checkout your tools on the next page!</div>
+				</div>
+				<a href="beginner.html"><div id="skip">Skip to the content directly</div></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<script src="bootstrap-3.3.7-dist/jquery-3.2.1/jquery.min.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$('.question-page').hide();
+		$('#loader').hide();
+		function test_patience(){
+			//console.log('executed');
+			var radioValue = $('input[name="patience"]:checked').val();
+			if (radioValue == "Yes"){
+				$('.question-page:nth(0)').hide();
+				$('.question-page:nth(1)').show();
+				$('#loader').show();
+				setTimeout(function(){
+					$('.question-page:nth(1)').hide();
+					$('#loader').hide();
+					$('.question-page:nth(3)').show();
+				}, 3000);
+			} else if (radioValue == 'No'){
+				$('.question-page:nth(0)').hide();
+				$('.question-page:nth(2)').show();
+				$('#loader').show();
+				setTimeout(function(){
+					$('.question-page:nth(2)').hide();
+					$('#loader').hide();
+					$('.question-page:nth(0)').show();
+				}, 4000);
+			}
+		}
+		function test_courage(){
+			//console.log('executed');
+			var radioValue = $('input[name="courage"]:checked').val();
+			if (radioValue == "Yes"){
+				$('.question-page').hide();
+				$('.question-page:nth(4)').show();
+				$('#loader').show();
+				setTimeout(function(){
+					$('.question-page:nth(4)').hide();
+					$('#loader').hide();
+					$('.question-page:nth(6)').show();
+				}, 3000);
+			} else if (radioValue == 'No'){
+				$('.question-page:nth(3)').hide();
+				$('.question-page:nth(5)').show();
+				$('#loader').show();
+				setTimeout(function(){
+					window.open("beginner.html", "_self");
+				}, 5000);
+			}
+		}
+		function test_time(){
+			//console.log('executed');
+			var radioValue = $('input[name="time"]:checked').val();
+			if (radioValue == "1"){
+				$('.question-page').hide();
+				$('.question-page:nth(7)').show();
+				$('#loader').show();
+				setTimeout(function(){
+					$('.question-page:nth(7)').hide();
+					$('#loader').hide();
+					$('.question-page:nth(6)').show();
+				}, 5000);
+			} else if (radioValue == '10'){
+				$('.question-page:nth(6)').hide();
+				$('.question-page:nth(8)').show();
+				$('#loader').show();
+				setTimeout(function(){
+					$('.question-page:nth(8)').hide();
+					$('#loader').hide();
+					$('.question-page:nth(6)').show();
+				}, 5000);
+			} else if (radioValue == '100'){
+				$('.question-page:nth(6)').hide();
+				$('.question-page:nth(9)').show();
+				$('#loader').show();
+				setTimeout(function(){
+					window.open("beginner.html", "_self");
+				}, 5000);
+			}
+		}
+		$('.question-page:nth(0)').show();
+	</script>
+</body>
+</html>
