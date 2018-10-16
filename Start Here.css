@@ -1,0 +1,7 @@
+#intro{
+	z-index:1100;
+	position:fixed;
+	top:2vh;
+	height:90vh;
+	width:100vw;
+}

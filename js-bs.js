@@ -21,7 +21,7 @@ $(document).ready(function() {
 		}
 		else {
 			document.getElementById('follow-questions').style.display="block";
-			document.getElementsByTagName('footer')[0].style.borderTop="20px none #000";
+			document.getElementsByTagName('footer')[0].style.borderTop="20px none #f00";
 			document.getElementsByTagName('footer')[0].style.height="70vh";
 			document.getElementsByTagName('footer')[0].style.paddingTop="15px";
 		}
@@ -29,28 +29,34 @@ $(document).ready(function() {
 	
 	$('html').click(function(e) {                    
 	   if (screen.width<768) {
-		   if (e.target.id=='follow-question-btn') 
+		   if (e.target.id=='fa-question-circle' || e.target.id=='follow-question-btn'
+			   || e.target.id=='map-menu-btn') 
 		   {
-			   	if (document.getElementById('follow-questions').style.display=="none") {
-			   		console.log("display was none");
-					document.getElementById('follow-questions').style.display="block";
-					document.getElementsByTagName('footer')[0].style.borderTop="20px solid #000";
-					document.getElementsByTagName('footer')[0].style.height="70vh";
-					document.getElementsByTagName('footer')[0].style.paddingTop="15px";
+			   if (document.getElementsByTagName('footer')[0].style.height=="0px") {
+			   	   console.log("display was none");
+				   document.getElementsByTagName('footer')[0].style.paddingTop="15px";
+				   window.requestAnimationFrame(function(){
+					   document.getElementsByTagName('footer')[0].style.height
+						   = String(document.documentElement.clientHeight * 0.7) + "px";
+				   });
 				}
-				else{
-					document.getElementById('follow-questions').style.display="none";
-					document.getElementsByTagName('footer')[0].style.borderTop="20px none #000";
-					document.getElementsByTagName('footer')[0].style.height="0vh";
-					document.getElementsByTagName('footer')[0].style.paddingTop="0px";
+			   else{
+				   console.log("height is not 0");
+				   window.requestAnimationFrame(function(){
+					   document.getElementsByTagName('footer')[0].style.height="0px";
+					   document.getElementsByTagName('footer')[0].style.paddingTop="0px";
+				   });
+
+				   //document.getElementsByTagName('footer')[0].style.display="none";
 				} 
 		   }
 		   else if(! (e.target.closest=='follow-questions'))
 		   {
-			   	document.getElementById('follow-questions').style.display="none";
-				document.getElementsByTagName('footer')[0].style.borderTop="none";  
-				document.getElementsByTagName('footer')[0].style.height="0vh";
-				document.getElementsByTagName('footer')[0].style.paddingTop="0px";            
+			   window.requestAnimationFrame(function(){
+				   document.getElementsByTagName('footer')[0].style.height="0px";
+				   document.getElementsByTagName('footer')[0].style.paddingTop="0px";
+			   });
+
 		   }
 	   }
 	})
@@ -58,7 +64,8 @@ $(document).ready(function() {
 	$(function() {
 	    $("#startJourney").modal();
 	});
-	
+	if (screen.width<768)
+		document.getElementsByTagName('footer')[0].style.height="0px";
 });
 
 

@@ -15,10 +15,10 @@ p{
 }
 body{
 	font-size:16px;
-	background-color:#b3d9ff;
+	background-color:#9fff80;
 }
 .panel-default > .panel-heading, .nav-tabs > li{
-	background-color:#0099ff;
+	background-color:#ff0000;
 	color:white;
 }
 .panel-title > a{
@@ -32,6 +32,7 @@ body{
 }
 h1{
 	background-color:#ff6600;
+	background-color:#ff0000;
 	color:white;
 	padding:5px;
 	font-size:24px;
@@ -39,5 +40,5 @@ h1{
 h2{
 	font-size:22px;
 	padding:5px;
-	background-color:#ffb380;
+	background-color:#ff9999;
 }

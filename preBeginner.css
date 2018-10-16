@@ -15,7 +15,8 @@
 .question{
 	font-size:22px;
 	padding:5px;
-	background-color:orange;
+	background-color:red;
+	color:white;
 }
 .option, .message{
 	font-size:18px;
@@ -26,10 +27,10 @@
 .full-page{
 	margin-top:20vh;
 	padding:10vh;
-	border: 2px solid blue;
+	border: 2px solid red;
 }
 body{
-	background-color:#b3d9ff;
+	background-color:#9fff80;
 }
 #skip{
 	text-align:center;
@@ -38,7 +39,7 @@ body{
 	display:block;
 }
 button{
-	width:100px;
+	width:120px;
 	margin-left:calc(50% - 50px);
 }
 @media (max-width:767px){
