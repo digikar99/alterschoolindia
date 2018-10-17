@@ -61,6 +61,7 @@
                                 :href "../bootstrap-3.3.7-dist/css/bootstrap.min.css")
                          (:link :rel "stylesheet"
                                 :href "../styles-bs.css")
+                         (:link :rel "shortcut icon" :href "../Meta/asi_logo.png")
                          (:title (file-namestring main-file)))
                         (:body
                          (:nav :class "page-details"
