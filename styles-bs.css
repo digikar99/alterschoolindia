@@ -10,6 +10,10 @@ body{
 	background-color:var(--bg-color);
 }
 
+main{
+	padding-bottom:21mm;
+}
+
 blockquote{
 	border-left:5px solid #2eb82e;
 }
@@ -38,9 +42,6 @@ p.ahe_ref{text-align:right;}
 p.center{text-align:center;}
 p{text-align:justify;}
 
-
-
-main{margin-bottom:25vh;}
 	
 /*	main.long-line{margin-top:200px;}*/
 /*	footer.long-line{margin-top:50px;}*/
@@ -54,8 +55,6 @@ math{font-family:Sans-serif; font-size:16px;}
 	
 @media (max-width:767px) {	
 	footer{
-		/* color changes for mobile footer also take 
-		   place via js-bs.js */
 		border-color:var(--menu-color);  
 		text-align:left; 
 		position:fixed; 
@@ -70,7 +69,7 @@ math{font-family:Sans-serif; font-size:16px;}
 		padding-right:15px;
 		transition: height 0.2s;
 		-webkit-transition: height 0.2s;
-		border-top:solid 20px #f00;
+		border-top:solid 3mm #f00;
 	}
 
 	#follow-questions{
@@ -330,5 +329,16 @@ h2{
 	height:80vh;
 }
 .modal-body{
+	background-color:var(--btn-unpressed);
+}
+
+#asi-logo-img{
+	height:70px;
+	display:block;
+	margin:auto;
+}
+#asi-logo{
+	position:relative;
+	text-align:center;
 	background-color:var(--btn-unpressed);
 }

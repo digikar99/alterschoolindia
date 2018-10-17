@@ -13,6 +13,15 @@
       (read-sequence contents stream)
       contents)))
 
+(defvar logo
+  (markup  (:br)
+           (:br)
+           (:div :class "row"
+                 (:div :class "col-xs-12" :id "asi-logo"
+                       (:a :href "../index.html"
+                           (:img :src "../Meta/asi_logo.png"
+                                 :id "asi-logo-img"))))))
+
 (defun create-site (subject-list)
   (if (null subject-list)
       'done
@@ -72,7 +81,10 @@
                          page-question
                          (:div :class "container"
                                (:div :class "row"
-                                     (:div :class "col-md-8 col-sm-7" main (:br) (:br))
+                                     (:div :class "col-md-8 col-sm-7"
+                                           (str:replace-all "</main>"
+                                                            (str:join "" (list logo "</main>"))
+                                                            main))
                                      (:div :class "col-md-4 col-sm-5" footer)))
                          (:div :class "visible-xs container-fluid" :id "bottom-bar"
                                (:div :class "row"
