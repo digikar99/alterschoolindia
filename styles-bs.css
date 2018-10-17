@@ -40,7 +40,7 @@ h2{font-size:1em; font-weight:bold; text-align:left;}
 h3{font-size:1em; text-decoration:underline; font-weight:normal; display:inline;}
 p.ahe_ref{text-align:right;}
 p.center{text-align:center;}
-p{text-align:justify;}
+p{text-align:justify; padding:5px;}
 
 	
 /*	main.long-line{margin-top:200px;}*/
