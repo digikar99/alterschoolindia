@@ -16,10 +16,14 @@ iframe{
 }
 body{
 	font-size:16px;
-	background-color:#9fff80;
+	background-color:var(--bg-color);
 }
 .panel-default > .panel-heading, .nav-tabs > li{
-	background-color:#ff0000;
+	background-color:var(--menu-color);
+	color:white;
+}
+.nav-tabs > .active > a{
+	background-color:var(--menu-color);
 	color:white;
 }
 .panel-title > a{
@@ -30,6 +34,11 @@ body{
 }
 .nav-tabs > li > a{
 	color:white;
+	
+}
+.nav-tabs > li > a:hover{
+	color:black;
+	
 }
 h1{
 	background-color:#ff6600;

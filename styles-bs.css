@@ -342,3 +342,13 @@ h2{
 	text-align:center;
 	background-color:var(--btn-unpressed);
 }
+
+.modal-body > h5{
+	margin:0px;
+	padding:0px;
+	text-decoration:underline;
+}
+.modal-body > p{
+	padding:10px;
+	margin:0px;
+}
