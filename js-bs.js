@@ -68,4 +68,7 @@ $(document).ready(function() {
 		document.getElementsByTagName('footer')[0].style.height="0px";
 });
 
+function goBack() {
+    window.history.back();
+}
 

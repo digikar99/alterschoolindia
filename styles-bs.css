@@ -208,7 +208,7 @@ math{font-family:Sans-serif; font-size:16px;}
 	padding:1mm;
 	margin-right:2vw;
 	margin-left:2vw;
-	width:76vw;
+	width:55vw;
 	height:1.4cm;
 }
 
@@ -233,9 +233,22 @@ math{font-family:Sans-serif; font-size:16px;}
 	border-radius:1.5mm;
 }
 
-#follow-question-btn:active, #map-button:active, #map-menu-btn:active{
+#follow-question-btn:active, #map-button:active, #map-menu-btn:active, #back-button:active{
 	background-color:var(--btn-pressed);
 	color:white;
+}
+
+#back-button{
+	background-color:var(--btn-unpressed);
+	text-align:center;
+	border:solid 1px white;
+	border-radius:1mm;
+	margin:2mm;
+	margin-left:2vw;
+	margin-right:2vw;
+	width:16vw;
+	padding:1mm;
+	height:1.4cm;
 }
 
 #map-button{
@@ -251,6 +264,10 @@ math{font-family:Sans-serif; font-size:16px;}
 	height:1.4cm;
 }
 
+#fa-left-solid{
+	background-color:var(--btn-unpressed); width:1cm; margin:1mm;
+	border-radius:1.5mm;
+}
 #fa-map-solid{
 	background-color:var(--btn-unpressed); width:1cm; margin:1mm;
 	border-radius:1.5mm;

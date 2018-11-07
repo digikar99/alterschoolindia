@@ -89,10 +89,13 @@
                                      (:div :class "col-md-4 col-sm-5" footer)))
                          (:div :class "visible-xs container-fluid" :id "bottom-bar"
                                (:div :class "row"
-                                     (:div :id "follow-question-btn" :class "col-xs-9"
+                                     (:div :id "back-button" :class "col-xs-3" :onclick "goBack()"
+                                           (:img :src "../Meta/arrow-circle-left-solid-red.png"
+                                                 :id "fa-left-solid"))
+                                     (:div :id "follow-question-btn" :class "col-xs-6"
                                            (:img :src "../Meta/question-circle-solid-red.png"
                                                  :id "fa-question-circle")
-                                           "Would you like to know?")
+                                           "Got any questions?")
                                      (:div :id "map-button" :class "col-xs-3"
                                            (:a :href "../Meta/List for Organized Study.html"
                                                (:img :src "../Meta/map-solid-red.png"
