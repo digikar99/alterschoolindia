@@ -1,56 +1,63 @@
 :root{
-	--bg-color:#c6ffb3;
-	--menu-color:red;
-	--btn-unpressed:#ffb3b3;
-	--btn-pressed:#990000;
+    --bg-color:#c6ffb3;
+    --menu-color:red;
+    --btn-unpressed:#ffb3b3;
+    --btn-pressed:#990000;
 }
 iframe{
-	margin:0px;
-	width:100%;
-	height:70vh;
-	border:2px solid var(--menu-color);
-	overflow:scroll;;
+    margin:0px;
+    width:100%;
+    height:70vh;
+    border:2px solid var(--btn-pressed);
+    overflow:scroll;;
 }
 .window{
-	padding:5px;
+    padding:5px;
 }
 body{
-	font-size:16px;
-	background-color:var(--bg-color);
+    font-size:16px;
+    background-color:var(--bg-color);
 }
-.panel-default > .panel-heading, .nav-tabs > li{
-	background-color:var(--menu-color);
-	color:white;
+.panel-default > .panel-heading{
+    background-color:var(--menu-color);
+    color:white;
 }
-.nav-tabs > .active > a{
-	background-color:var(--menu-color);
-	color:white;
-}
-.panel-title > a{
-	display:block;
-}
-.panel-title > a:hover{
-	text-decoration:none;
+.nav-tabs > li{
+    background-color:var(--btn-pressed);
+    color:white;
 }
 .nav-tabs > li > a{
-	color:white;
-	
+    background-color:var(--menu-color);
+    color:white;
+    padding:5px;
+    border:1px solid var(--btn-pressed);
 }
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus{
+    background-color:var(--btn-unpressed);
+    color:black;
+    border:1px solid var(--btn-pressed);
+}
+.panel-title > a{
+    display:block;
+}
+.panel-title > a:hover{
+    text-decoration:none;
+}
+
 .nav-tabs > li > a:hover{
-	color:black;
-	
+    color:black;
 }
 h1{
-	background-color:#ff6600;
-	background-color:#ff0000;
-	color:white;
-	padding:5px;
-	font-size:24px;
+    background-color:#ff6600;
+    background-color:#ff0000;
+    color:white;
+    padding:5px;
+    font-size:24px;
 }
 h2{
-	font-size:22px;
-	padding:5px;
-	background-color:#ff9999;
+    font-size:22px;
+    padding:5px;
+    background-color:#ff9999;
 }
 .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
@@ -64,5 +71,5 @@ h2{
     content: "\e080";    /* adjust as needed, taken from bootstrap.css */
 }
 .panel-body{
-		background-color:var(--bg-color);
+    background-color:var(--bg-color);
 }
