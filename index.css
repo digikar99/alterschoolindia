@@ -1,163 +1,172 @@
+/* Assume smartphone height to be 640px, so that the content
+ * adjusts well to all smartphones - fixed height sections.
+ *
+ * Assume laptop/tablet height to be 768 px.
+ */
 
 
-/* For all screen sizes */
 .section{
-	height:90vh;
-	margin:auto;
+    height:576px;
+    margin:auto;
 }
 
 .section-1{
-	padding-top:15vh;
-	text-align:center;
-	background-color:#b3d9ff;
+    padding-top:96px;
+    text-align:center;
+    background-color:#b3d9ff;
 }
 
 .section-2{
-	padding:5vw;
-	padding-top:30vh;
-	background-color:#ffcc99
+    height:448px;
+    padding:5vw;
+    padding-top:192px;
+    background-color:#ffcc99
 }
 
 .section-3{
-	padding-top:5vh;
-	Background-color:#aaff80;
+    padding-top:32px;
+    Background-color:#aaff80;
 }
 
 .section-4{
-	padding:3vw;
-	text-align:center;
-	padding-top:5vh;
-	Background-color:#ffff80;
+    height:384px;
+    padding:3vw;
+    text-align:center;
+    padding-top:32px;
+    Background-color:#ffff80;
+}
+.section-5{
+    height:448px;
 }
 
 #home-logo{
-	width:100%;
+    width:100%;
 }
 
 .front-line{
-	font-size:large;
-	text-align:center;
+    font-size:large;
+    text-align:center;
 }
 
 @-webkit-keyframes exp-1{
     0%{opacity:0; height:0;}
-	0.58%{opacity:1; height:auto;}
+    0.58%{opacity:1; height:auto;}
     5.28%{opacity:1; height:auto;}
     5.8%{opacity:0;height:0;}
-	100%{opacity:0;height:0;}
+    100%{opacity:0;height:0;}
 }
 
 @-webkit-keyframes exp-2{
-	0%{opacity:0; height:0;}
+    0%{opacity:0; height:0;}
     5.8%{opacity:0; height:0;}
-	6.46%{opacity:1; height:auto;}
+    6.46%{opacity:1; height:auto;}
     8.81%{opacity:1; height:auto;}
     9.4%{opacity:0;height:0;}
-	100%{opacity:0;height:0;}
+    100%{opacity:0;height:0;}
 }
 @-webkit-keyframes exp-3{
-	0%{opacity:0; height:0;}
+    0%{opacity:0; height:0;}
     9.4%{opacity:0; height:0;}
-	9.98%{opacity:1; height:auto;}
+    9.98%{opacity:1; height:auto;}
     19.38%{opacity:1; height:auto;}
     19.97%{opacity:0;height:0;}
-	100%{opacity:0;height:0;}
+    100%{opacity:0;height:0;}
 }
 @-webkit-keyframes exp-4{
-	0%{opacity:0; height:0;}
+    0%{opacity:0; height:0;}
     19.98%{opacity:0; height:0;}
-	20.56%{opacity:1; height:auto;}
+    20.56%{opacity:1; height:auto;}
     29.96%{opacity:1; height:auto;}
     30.55%{opacity:0;height:0;}
-	100%{opacity:0;height:0;}
+    100%{opacity:0;height:0;}
 }
 @-webkit-keyframes exp-5{
-	0%{opacity:0; height:0;}
+    0%{opacity:0; height:0;}
     30.56%{opacity:0; height:0;}
-	31.13%{opacity:1; height:auto;}
+    31.13%{opacity:1; height:auto;}
     40.53%{opacity:1; height:auto;}
     41.12%{opacity:0;height:0;}
-	100%{opacity:0;height:0;}
+    100%{opacity:0;height:0;}
 }
 @-webkit-keyframes exp-6{
-	0%{opacity:0; height:0;}
+    0%{opacity:0; height:0;}
     41.13%{opacity:0; height:0;}
-	41.71%{opacity:1; height:auto;}
+    41.71%{opacity:1; height:auto;}
     53.46%{opacity:1; height:auto;}
     54.05%{opacity:0;height:0;}
-	100%{opacity:0;height:0;}
+    100%{opacity:0;height:0;}
 }
 @-webkit-keyframes exp-7{
-	0%{opacity:0; height:0;}
+    0%{opacity:0; height:0;}
     54.1%{opacity:0; height:0;}
-	54.63%{opacity:1; height:auto;}
+    54.63%{opacity:1; height:auto;}
     68.73%{opacity:1; height:auto;}
     70.5%{opacity:0;height:0;}
-	100%{opacity:0;height:0;}
+    100%{opacity:0;height:0;}
 }
 @-webkit-keyframes exp-8{
-	0%{opacity:0; height:0;}
+    0%{opacity:0; height:0;}
     70.51%{opacity:0; height:0;}
-	71.08%{opacity:1; height:auto;}
+    71.08%{opacity:1; height:auto;}
     85.18%{opacity:1; height:auto;}
     85.77%{opacity:0;height:0;}
-	100%{opacity:0;height:0;}
+    100%{opacity:0;height:0;}
 }
 @-webkit-keyframes exp-9{
-	0%{opacity:0; height:0;}
+    0%{opacity:0; height:0;}
     85.78%{opacity:0; height:0;}
-	86.36%{opacity:1; height:auto;}
-	99.28%{opacity:1; height:auto;}
-	100%{opacity:0;height:0;}
+    86.36%{opacity:1; height:auto;}
+    99.28%{opacity:1; height:auto;}
+    100%{opacity:0;height:0;}
 }
 
 #explanation-1{
-	display:block;
+    display:block;
     -webkit-animation:exp-1 45s infinite;
 }
 #explanation-2{
-	display:block;
+    display:block;
     -webkit-animation:exp-2 45s infinite;
 }
 #explanation-3{
-	display:block;
+    display:block;
     -webkit-animation:exp-3 45s infinite;
 }
 #explanation-4{
-	display:block;
+    display:block;
     -webkit-animation:exp-4 45s infinite;
 }
 #explanation-5{
-	display:block;
+    display:block;
     -webkit-animation:exp-5 45s infinite;
 }
 #explanation-6{
-	display:block;
+    display:block;
     -webkit-animation:exp-6 45s infinite;
 }
 #explanation-7{
-	display:block;
+    display:block;
     -webkit-animation:exp-7 45s infinite;
 }
 #explanation-8{
-	display:block;
+    display:block;
     -webkit-animation:exp-8 45s infinite;
 }
 #explanation-9{
-	display:block;
+    display:block;
     -webkit-animation:exp-9 45s infinite;
 }
 
 .top-choices{
-	text-align:center;
-	vertical-align:center;
-	background-color:red;
-	color:white;
+    text-align:center;
+    vertical-align:center;
+    background-color:red;
+    color:white;
 }
 
 .top-choices:hover{
-	Background-color:#0099ff;
-	color:black;
+    Background-color:#0099ff;
+    color:black;
 }
 .fa-facebook {
     background: #3B5998;
@@ -170,17 +179,17 @@
 }
 
 .fa-linkedin {
-	background-color:#0077B5;
-	color:white;
+    background-color:#0077B5;
+    color:white;
 }
 
 .fa-google-plus {
-	background-color:#C63D2D;
-	color:white;
+    background-color:#C63D2D;
+    color:white;
 }
 .fa-whatsapp{
-	background-color:#5cd65c;
-	color:white;
+    background-color:#5cd65c;
+    color:white;
 }
 
 .fa {
@@ -189,8 +198,8 @@
     width: 40px;
     text-align: center;
     text-decoration: none;
-	border-radius: 20%;
-	margin:5px;
+    border-radius: 20%;
+    margin:5px;
 }
 
 .fa:hover {
@@ -199,64 +208,77 @@
 
 
 @media (min-width:768px){
-	.sole-front-line{
-		font-size:x-large;
-		text-align:center;
-	}
-	.top-choices{
-		height:60vh;
-		padding-top:24vh;
-		margin-top:20px;
-		margin-left:10px;
-		margin-right:10px;
-		font-size:x-large;
-	}
-	.top-choices-2{
-		padding-top:20vh;
-	}
-	.section-5{
-		padding-top:20vh;
-		padding-left:20vw;
-		font-size:large;
-	}
+    .section{
+	height:691.2px;
+    }
+    .section-2{
+	padding-top:245px;
+    }
+    .section-3{
+	padding-top:76.8px;
+    }
+    .section-4{
+	padding-top:115.2px;
+    }
+    .section-5{
+	padding-top:153.6px;
+	padding-left:17vw;
+	padding-right:18vw;
+	font-size:large;
+    }
+    .sole-front-line{
+	font-size:x-large;
+	text-align:center;
+    }
+    .top-choices{
+	height:460.8px;
+	padding-top:184.3px;;
+	margin-top:20px;
+	margin-left:10px;
+	margin-right:10px;
+	font-size:x-large;
+    }
+    .top-choices-2{
+	padding-top:153.6px;
+    }
 }
 
 @media (max-width:767px){
-	.section-1{
-		padding-top:calc((90vh-265px)/2);
-	}
-	.section-2{
-		padding-top:15vh;
-	}
-	.section-4{
-		padding-top:5vh;
-	}
-	.section-5{
-		padding-top:5vh;
-		padding-left:5vw;
-		padding-right:5vw;
-		font-size:normal;		
-	}
-	.sole-front-line{
-		padding:5px;
-		font-size:16pt;
-		text-align:center;
-	}
-	.top-choices{
-		height:30vh;
-		margin-top:10px;
-		margin-bottom:10px;
-		padding-top:8vh;
-		font-size:16pt;
-	}
-	.top-choices-2{
-		padding:5vw;
-		font-size:14pt;
-		padding-top:7vh;
-	}
-	h2{
-		font-size:x-large;
-	}
+    .section-1{
+	padding-top:calc((90vh-265px)/2);
+    }
+    .section-2{
+	padding-top:96px;
+    }
+    .section-4{
+	padding-top:32px;
+    }
+    .section-5{
+	padding-top:32px;
+	padding-left:5vw;
+	padding-right:5vw;
+	font-size:normal;		
+    }
+    .sole-front-line{
+	padding:5px;
+	font-size:16pt;
+	text-align:center;
+    }
+    .top-choices{
+	height:192px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-top:51.2px;
+	font-size:16pt;
+    }
+    .top-choices-2{
+	padding:5vw;
+	font-size:14pt;
+	padding-top:44.8px;
+    }
+    h2{
+	font-size:x-large;
+    }
 }
 
 
