@@ -29,7 +29,7 @@ body{
 .nav-tabs > li > a{
     background-color:var(--menu-color);
     color:white;
-    padding:5px;
+    padding:8.45px;
     border:1px solid var(--btn-pressed);
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus{
