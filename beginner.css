@@ -29,7 +29,8 @@ body{
 .nav-tabs > li > a{
     background-color:var(--menu-color);
     color:white;
-    padding:5.56px;
+    font-size:18px;
+    padding:11.13px;
     border:1px solid var(--btn-pressed);
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus{
@@ -73,3 +74,22 @@ h2{
 .panel-body{
     background-color:var(--bg-color);
 }
+
+.modal{
+    top:15%;
+}
+
+.modal-header{
+    background-color:#006666;
+    color:white;
+}
+
+.modal-body{
+    background-color:#e6ffff;
+}
+
+.modal-footer{
+    display:none;
+}
+
+

@@ -83,7 +83,7 @@
 		<br>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
+				<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
 					<div class="panel-group visible-xs" id="accordion">
 					  <div class="panel panel-default">
 					    <div class="panel-heading ">
@@ -264,6 +264,38 @@
 				</div>
 			</div>
 		</div>
+		<!-- The Modal -->
+		<div class="modal" id="subscription">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h3 class="modal-title">Too much to learn? And not enough time?</h3>		
+		      </div>
+
+		      <div class="modal-body">
+		      	<ul>
+		      		<li>Learn all the contents in a 6-month course, straight from your email</li> 
+		      		<li>One email every Saturday</li>
+		      	</ul>
+
+	            <form>
+		        	<p class="text-center"><input type="email" name="email" placeholder="Your Email ID" required><br></p>
+		        	<p class="text-center"><input type="name" placeholder="(Optional)" name="name"><br></p>
+			        <p class="text-center"><input type="submit" name=""></p>
+			    </form>
+			    <ul>
+		        	<li>We promise! We will not share your email with anyone!</li>
+		        </ul>
+		        <p class="text-center">
+		        	<button id="close-subscription" class="btn btn-default" data-dismiss="subscription" type="button">Close</button>
+		        </p>
+		      </div>
+
+		      <div class="modal-footer"></div>
+
+		    </div>
+		  </div>
+		</div>
 		<br>
 		<div class="sole-front-line">Once you know the above.</div>
 		<div class="container">
@@ -311,6 +343,24 @@
 
 	<script src="bootstrap-3.3.7-dist/jquery-3.2.1/jquery.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function subscriptionShow(){
+		    $("#subscription").fadeToggle(500);
+		    return false;
+		}
+
+		function subscriptionHide(){
+		    $("#subscription").toggle();
+		    return false;
+		}
+
+		$(document).ready(function(){
+			$('#close-subscription').click(subscriptionHide);
+			setTimeout(function() {
+				subscriptionShow();		    	
+			}, 0);
+		});
+	</script>
 
 </body>
 </html>
