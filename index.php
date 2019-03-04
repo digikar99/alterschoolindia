@@ -34,9 +34,9 @@
 			<br class="hidden-xs">
 			<br>
 			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 front-line">1300+ UNIQUE VISITORS over the LAST YEAR</div>
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 front-line">1500+ UNIQUE VISITORS since the start in 2018</div>
 				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 front-line blinking">
-				100+ UNIQUE VISITORS over the LAST MONTH</div>
+				200+ UNIQUE VISITORS over the LAST MONTH</div>
 				<br>
 				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 front-line"><?php
 						$file_name = "data/counter.txt";
@@ -278,8 +278,8 @@
 		      		<li>One email every Saturday</li>
 		      	</ul>
 
-	            <form>
-		        	<p class="text-center"><input type="email" name="email" placeholder="Your Email ID" required><br></p>
+	            <form action="send_data.php" method="post">
+		        	<p class="text-center"><input type="email" name="email" placeholder="Your Email ID" id="user-email" required><br></p>
 		        	<p class="text-center"><input type="name" placeholder="(Optional)" name="name"><br></p>
 			        <p class="text-center"><input type="submit" name=""></p>
 			    </form>
@@ -355,10 +355,11 @@
 		}
 
 		$(document).ready(function(){
+			document.getElementById('user-email').autocomplete="on";
 			$('#close-subscription').click(subscriptionHide);
 			setTimeout(function() {
 				subscriptionShow();		    	
-			}, 0);
+			}, 60000);
 		});
 	</script>
 
