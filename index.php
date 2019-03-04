@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="./index.css"> 
 	<link rel="stylesheet" href="./beginner.css"> 
 	<link rel="shortcut icon" href="Meta/asi_logo.png" />
-	<title>A Supplementary School Curriculum</title>
+	<title>alterschoolindia - A Supplementary School Curriculum</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<meta name="keywords" content="alternative education, supplementary education, after school activity, summer activity, teen development, additional learning, alternative school curriculum, education reform">
 </head>
@@ -269,7 +269,7 @@
 		  <div class="modal-dialog">
 		    <div class="modal-content">
 		      <div class="modal-header">
-		        <h3 class="modal-title">Too much to learn? And not enough time?</h3>		
+		        <h3 class="modal-title">Too much to learn in one go?</h3>		
 		      </div>
 
 		      <div class="modal-body">
@@ -280,8 +280,8 @@
 
 	            <form action="send_data.php" method="post">
 		        	<p class="text-center"><input type="email" name="email" placeholder="Your Email ID" id="user-email" required><br></p>
-		        	<p class="text-center"><input type="name" placeholder="(Optional)" name="name"><br></p>
-			        <p class="text-center"><input type="submit" name=""></p>
+		        	<p class="text-center"><input type="name" placeholder="Name (Optional)" name="name"><br></p>
+			        <p class="text-center"><input type="submit" name="" id="submit"></p>
 			    </form>
 			    <ul>
 		        	<li>We promise! We will not share your email with anyone!</li>
@@ -313,9 +313,14 @@
 	
 	<div class="section section-4">
 		<h2>Write to us at</h2>
-		<a href="mailto:alterschoolindia@email.com"><h4>alterschoolindia@email.com</h4></a>
-		<br>
-		<br>
+		<a href="mailto:alterschoolindia@email.com?subject=Feedback%20on%20%alterschoolindia"><h4>alterschoolindia@email.com</h4></a>
+		<h2>Too much to learn in one go?</h2>
+		<p class="text-center">Get the content in the form of weekly emails.</p>
+        <form action="send_data.php" method="post">
+        	<p class="text-center"><input type="email" name="email" placeholder="Your Email ID" required><br></p>
+        	<p class="text-center"><input type="name" placeholder="Name (Optional)" name="name"><br></p>
+	        <p class="text-center"><input type="submit" name="" data-dismiss="modal"></p>
+	    </form>
 		<h2>Liked the above contents?</h2> 
 		<h2>Let others learn.</h2>
 		<p>Share this page on</p>
@@ -344,8 +349,11 @@
 	<script src="bootstrap-3.3.7-dist/jquery-3.2.1/jquery.min.js"></script>
 	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript">
-		function subscriptionShow(){
-		    $("#subscription").fadeToggle(500);
+		var user_has_seen_subscription = false;
+		function subscriptionShowIfNeeded(){
+		    if (!user_has_seen_subscription) setTimeout(function() {
+		    	$("#subscription").fadeToggle(500);
+		    }, 1000);
 		    return false;
 		}
 
@@ -355,13 +363,19 @@
 		}
 
 		$(document).ready(function(){
+			var subscription_section = $(".section-4").offset().top;
+			var interval = setInterval(function() {
+			    if ($(window).scrollTop() >= subscription_section) {
+			    	user_has_seen_subscription;
+			    }
+			}, 250);
 			document.getElementById('user-email').autocomplete="on";
 			$('#close-subscription').click(subscriptionHide);
 			setTimeout(function() {
-				subscriptionShow();		    	
-			}, 60000);
+				subscriptionShowIfNeeded();		    	
+			},24000);
 		});
 	</script>
 
 </body>
-</html>
+</html>T
