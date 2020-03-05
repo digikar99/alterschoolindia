@@ -2,7 +2,7 @@
 
 alterschoolindia - Creating a "guide" to introduce middle/high-schoolers to using the internet, while supplementing/replacing their school curriculum. While there's 'India' in the name, sections other than some parts of Social Science should be useful for all.
 
-(a) The website is available at [alterschoolindia.com](alterschoolindia.com). A more recent version is available at [github.io](https://digikar99.github.io/alterschoolindia/).
+(a) The website should be up at [alterschoolindia.com](http://alterschoolindia.com). If that expires: [github.io](https://digikar99.github.io/alterschoolindia/).
 
 (b) 
 
